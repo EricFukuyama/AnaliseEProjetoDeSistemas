@@ -1,0 +1,211 @@
+:root {
+    --primary: #22577a;
+    --primary--hovered: #2f729e;
+    --outline: #fdfdfd;
+    --outline--hovered: #ececec;
+    --disabled: #e0e0e0;
+    --disabled--text: #f2f2f2;
+    --cancel: #EB5757;
+    --open: #38A3A5;
+}
+
+.btn {
+    padding: 8px 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px;
+}
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--outline);
+    border: 1px solid var(--primary);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--disabled--solid {
+    background-color: var(--disabled);
+    color: var(--disabled--text);
+    border: 1px solid var(--disabled);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--primary--outline {
+    background-color: var(--outline);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--primary--transparent {
+    background-color: transparent;
+    color: var(--primary);
+    border: 0px solid var(--primary);
+}
+
+.btn--icon--solid {
+    background-color: var(--primary);
+    color: var(--outline);
+    border: 1px solid var(--primary);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn--icon--outline {
+    background-color: var(--outline);
+    color: black;
+    border: 1px solid black;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn--icon--transparent {
+    background-color: transparent;
+    color: black;
+    border: 0px solid var(--primary);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--icon--disabled {
+    background-color: var(--disabled);
+    color: var(--outline);
+    border: 1px solid var(--disabled);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--primary--cancel {
+    background-color: var(--cancel);
+    color: var(--outline);
+    border: 1px solid var(--cancel);
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--primary--open {
+    background-color: var(--open);
+    color: var(--outline);
+    border: 1px solid var(--open);
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--primary--disable {
+    background-color: var(--disabled);
+    color: var(--outline);
+    border: 1px solid var(--disabled);
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--icon--transparent:hover {
+    background: #e5e5e5;
+}
+
+.btn--primary--solid:hover {
+    background: var(--primary--hovered);
+    color: var(--outline);
+    border: 1px solid var(--primary);
+}
+
+.btn--primary--outline:hover {
+    background-color: var(--outline--hovered);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn--icon--solid:hover {
+    background: var(--primary--hovered);
+    color: var(--outline);
+    border: 1px solid var(--primary);
+}
+
+.btn--icon--outline:hover {
+    background: var(--outline--hovered);
+    color: black;
+    border: 1px solid black;
+}
+
+.btn--icon--disabled:hover {
+    cursor: not-allowed;
+}
+
+.btn--primary--disable:hover {
+    cursor: not-allowed;
+}
+
+.btn #ic {
+    display: flex;
+    padding-left: 5px;
+    margin-right: 8px;
+}
+
+.btn #click-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* Button Size */
+
+.btn--large {
+    padding: 8px 10px;
+    width: 215px;
+}
+
+.btn--medium {
+    height: 34px;
+    padding: 12px;
+    width: 190px;
+}
+
+.btn--small {
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
+
+.btn--auto {
+    height: 34px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

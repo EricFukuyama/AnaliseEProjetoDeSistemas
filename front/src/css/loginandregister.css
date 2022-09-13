@@ -1,0 +1,70 @@
+.lr-card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial-page #internal{
+    background-color: papayawhip;
+    border-radius: 10%;
+    width: 300px;
+    height: 50vh;
+}
+
+.initial-page #internal #options{
+    height: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+}
+
+.initial-page #internal #content{
+    height: 50%;
+}
+
+.initial-page #internal #login
+{
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.initial-page #internal #create
+{
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.initial-page #internal #content #bts{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+.link{
+    cursor:pointer;
+}
+
+#input{
+    border-radius: 15%;
+}

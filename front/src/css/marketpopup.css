@@ -1,0 +1,43 @@
+.marketpopup{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketpopup .inputs{
+    margin-top: 15px;
+    height: 350px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.marketpopup .inputs .txt{
+    display: flex;
+    margin-top: 20px;
+    width: 50px;
+}
+
+input{
+    border-radius: 20%;
+    width: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#btn{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
